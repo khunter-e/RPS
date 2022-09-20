@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <script src="javascript.js"></script>
+        <script src ="javascript.js" async></script>
         <link rel="stylesheet" href="style.css">
         <title>Rock Paper Scissors</title>
     </head>
@@ -10,16 +10,10 @@
         <div class="header">
             Rock Paper Scissors
         </div>
-        <div class="body">
-            <div class="button">
-                <button>Rock</button>
-            </div>
-            <div class="button">
-                <button>Paper</button>
-            </div>
-            <div class="button">
-                <button>Scissors</button>
-            </div>
+        <div class="option">
+            <button onclick="playStart(this.id)" id="0">Rock</button>
+            <button onclick="playStart(this.id)" id="1">Paper</button>
+            <button onclick="playStart(this.id)" id="2">Scissors</button>
         </div>
     </body>
-</html>
+</html> 

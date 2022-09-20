@@ -12,7 +12,7 @@ body {
     justify-content: center;
 }
 
-.body {
+.option {
     display: flex;
     gap: 54px;
     justify-content: space-between;
